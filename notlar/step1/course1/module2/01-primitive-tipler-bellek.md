@@ -17,6 +17,10 @@ stack'te mi heap'te mi tutulduğunu belirleyen kuralı açıklar.
   Metot bitince anında silinir (LIFO mantığı, hızlı).
 - Class field'ı (sınıfın içinde, metot dışında tanımlı) → HEAP,
   nesnenin bellek bloğunun içinde. Nesne yaşadığı sürece kalıcı.
+- Default değerler SADECE field'lar için geçerli (nesne oluşunca
+  otomatik atanır, örn: int → 0, double → 0.0). Local değişkenler
+  default değer ALMAZ — değer atamadan kullanmaya çalışırsan Java
+  derleme hatası verir.
 
 ## Kod
 int max = Integer.MAX_VALUE;   // 2147483647
