@@ -40,3 +40,6 @@ Boş bir dosyaya, main metodunun beş parçasını (public, static, void,
 main, String[] args) tek tek yaz ve her birinin yanına ne işe
 yaradığını tek cümleyle not et. Sonra çalışan bir Hello World
 programını sıfırdan, bakmadan yaz.
+
+## Test satırı
+Bu bir denemedir.
